@@ -26,15 +26,13 @@ Este projeto utiliza um **ESP8266**, um **display OLED (U8g2)** e um **multiplex
 
 ---
 
-##Configuração de Rede
+## Configuração de Rede
 
 ```cpp
 const char* sta_ssid = "BANDOCH";
 const char* sta_password = "SENAI_IOT";
 const char* servidorPHP = "192.168.0.100";  // IP do servidor PHP/XAMPP
 ```
-
-> Ajuste esses valores conforme sua rede Wi‑Fi e o servidor em que está rodando o arquivo PHP.
 
 O sistema envia dados automaticamente a cada **20 segundos**:
 
